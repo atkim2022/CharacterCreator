@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public SpriteRenderer ArmorRenderer; 
+
+    public void SetArmor(Sprite newSprite)
+    {
+        ArmorRenderer.sprite = newSprite;
+    }
     // Start is called before the first frame update
     void Start()
     {
