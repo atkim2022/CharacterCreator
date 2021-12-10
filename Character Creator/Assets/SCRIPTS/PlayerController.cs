@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer ArmorRenderer; 
     public SpriteRenderer WeaponRenderer;
 
+    public SpriteRenderer ParticleRenderer;
+
     public void SetArmor(Sprite newSprite)
     {
         ArmorRenderer.sprite = newSprite;
@@ -17,6 +19,10 @@ public class PlayerController : MonoBehaviour
         WeaponRenderer.sprite = newSprite;
     }
 
+    public void SetParticle(Sprite newSprite)
+        {
+            ParticleRenderer.sprite = newSprite;
+        }
 
 
 
